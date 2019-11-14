@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="Jack Hardwick">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="mapStyle.css">
+      
+    <script src = "loadJS.js"></script>  
+  </head>
+    
+  <body>      
+      <nav id="header" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand">Jack Hardwick</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" id="toggle-collapse"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                  <a class="nav-item nav-link" href="index.html">About </a>
+                  <a class="nav-item nav-link active" href="#">Resume<span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#">Portfolio</a>
+              </div>
+          </div>
+      </nav>  
+      
+      <div id="viewDiv" class="stickyMap"></div>
+      
+      <div id="mnIntro" class="container" script="">
+        <div class="jumbotron">
+            <h1 class="mapText text-center"> Welcome to my interactive resume! </h1>
+            <div class="lead text-justify"> Scroll down to continue through the slides. Interact with the map if you'd like by clicking and dragging the map to move around. Zoom in and out using the controls in the bottom right or double clicking the map.</div>
+            <br>
+            <p class="lead text-muted text-center">- Jack Hardwick</p>
+        </div>
+      </div>
+      
+      
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      
+      <div id="mn1" class="mapNote" script="">
+          <button type="button" class="btn btn-primary" id="backBtn">Back</button>
+        <div class="jumbotron">
+            
+            <h1 class="mapText" id="directoryTitle">Resume Directory</h1>
+            <p id="subTitle" class="lead text-muted"></p>
+            <div class="lead">
+                <div class="list-group-flush" id="directory">
+                    <button id="gisExpButton" type="button" class="list-group-item list-group-item-action">GIS Experience</button>
+                    <button id="GenExpButton" type="button" class="list-group-item list-group-item-action">General Work Experience</button>
+                    <button id="accompButton" type="button" class="list-group-item list-group-item-action">Accomplishments</button>
+                    <button id="edTrButton" type="button" class="list-group-item list-group-item-action">Education and Training</button>
+                    <button id="techSkillsButton" type="button" class="list-group-item list-group-item-action">Technical Skills</button>
+                    <button id="acadCredButton" type="button" class="list-group-item list-group-item-action">Academic Credits</button>
+                    <button id="publicPresButton" type="button" class="list-group-item list-group-item-action">Public Presentations</button>
+                </div>
+            </div>
+            
+            
+<!--            GIS EXPERIENCE -->
+            
+            <div class="lead">
+                <div class="list-group-flush" id="GISexptext">
+                    <button id="gisInternLong" type="button" class="list-group-item list-group-item-action">GIS Student Intern – City of Longmont Planning and Development Department <div class="lead text-muted">February 2018 – May 2018 </div> </button>
+                    <button id="gisInternUCCS" type="button" class="list-group-item list-group-item-action">GIS Intern – University of Colorado Colorado Springs<div class="lead text-muted">November 2018 – Present</div></button>
+                    <button id="gisTA" type="button" class="list-group-item list-group-item-action">GIS Teaching Assistant – University of Colorado Colorado Springs<div class="lead text-muted">October 2018 – Present </div></button>
+                </div>
+            </div>
+            
+            <div id="GISInternLongtextField" class="lead">
+                •	Provided data visualizations of Longmont economic data for use in internal planning and development.
+                <br>
+                •	Validated city shapefiles through field and orthorectified imagery verification.
+                <br>
+                •	Created Longmont historic shortlist Story Map for use in educating the public.
+            </div>
+            
+            <div id="GISInternUCCStextField" class="lead">
+                •   Responsible for spatial data maintenance, end-user support and the generation of maps and other GIS reports and information products.
+                <br>
+                •	Responsible for the compiling and organizing of GIS data from maps, databases and other sources.
+                <br>
+                •	Ensured that quality assurance on new or revised data conformed to standards laid out in the geodatabase, or any other applicable UCCS standard or policy. 
+                <br>
+                •	Created and documented data management procedures and metadata definitions.
+                <br>
+                •	Responsible for coordinating student employees/volunteers in data collection, validation, and documentation.
+            </div>
+            
+            <div id="GISTAtextField" class="lead">
+                •	Assisted teachers and students with ArcGIS Pro, ArcMap, and ArcGIS Online software troubleshooting and data visualization.
+                <br>
+                •	Hosted open lab hours to provide students additional assistance outside of class hours. 
+                <br>
+                •	Created example materials for students as per Professor’s needs. 
+                <br>
+                •	Supported GIS students for the following classes: 
+                <br> <blockquote>
+                    o	Digital Earth (GES 2050), Intro to GIS (GES 3030), Intro to Cartography (GES 3050), Intro to Remote Sensing (GES 3060), Intro to Geospatial Computing (GES 4130), Advanced GIS (GES 4080), and Internet GIS (GES 4120). 
+                     </blockquote>
+            </div>
+            
+            
+<!--            GENERAL WORK EXPERIENCE -->
+            <div class="lead">
+                <div class="list-group-flush" id="GenExpText">
+                    <button id="BSAbutton" type="button" class="list-group-item list-group-item-action">San Isabel Scout Ranch and Ben Delatour Scout Ranch<div class="lead text-muted">June 1st - July 28th, 2012 – 2015</div> </button>
+                    <button id="FRCCITbutton" type="button" class="list-group-item list-group-item-action">Senior Student Technician – Front Range Community College Information Technology Support<div class="lead text-muted">June 2017 – May 2018</div></button>
+                    <button id="UCCSITbutton" type="button" class="list-group-item list-group-item-action">Student Technician – University of Colorado Colorado Springs Office of Information Technology<div class="lead text-muted">July 2018 – November 2018</div></button>
+                </div>
+            </div>
+            
+            <div id="BSAtext" class="lead">
+                •	2015, Program Director – provided leadership and supervision to over 50 staff members and 3000 Scouts and leaders. Reported directly to the Camp Director and was second in succession to the overall operations of the program. Wrote program syllabi and supervised the lesson plans of each teaching counselor.
+                <br>
+                •	2014, Assistant Program Director – Led Scoutmaster meetings, supervised 35 staff members, audited staff paperwork, and submitted scout advancement applications.
+
+            </div>
+            
+            <div id="FRCCITtext" class="lead">
+                •	Facilitated the interaction between faculty and public with senior support analysts concerning technical issues or requests through use of internal ticketing system and asset monitoring software.
+                <br>
+                •	Ensured campus employees, students, and guests were supported in completing their goals.
+                <br>
+                •	Trained new student technicians and instructed upgrade and proficiency training.
+
+            </div>
+            
+            <div id="UCCSITtext" class="lead">
+                •	Monitored faculty and staff needs through internal ticketing system and elevated requests to appropriate onsite professionals. 
+                <br>
+                •	Performed imaging and rebuilding of new or malfunctioning technology in line with University technical standards.
+                <br>
+                •	Provided support to students, staff and faculty through email & phone systems and face to face interaction.  
+
+            </div>
+            
+<!--            Accomplishments -->
+            <div class="lead">
+                <div class="list-group-flush" id="AccompText">
+                    <button id="eagleButton" type="button" class="list-group-item list-group-item-action">Eagle Scout Award - Boy Scouts of America<div class="lead text-muted">May 2010</div> </button>
+                    <button id="gisClubPresButton" type="button" class="list-group-item list-group-item-action">UCCS GIS Club President<div class="lead text-muted"> November 2018 - Present</div></button>
+                    <button id="LASAmbbutton" type="button" class="list-group-item list-group-item-action">UCCS Language, Arts, and Sciences Peak Ambassador for GIS Program<div class="lead text-muted">November 2018 - Present</div></button>
+                </div>
+            </div>
+            
+            <div id="eagleText" class="lead">
+                In May of 2010, I worked with representatives of my local church to plan, finance, and create a new welcome center for the youth section of my church. 
+
+            </div>
+            
+            <div id="gisClubPresText" class="lead">
+               •	GIS Club President Text Here
+               <br>
+
+            </div>
+            
+            <div id="LASAmbText" class="lead">
+               •	LAS Peak Ambassador Text Here 
+               <br>
+
+            </div>
+            
+        </div>
+      </div>
+      
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      
+      <div id="pageIncrease">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </div>
+       
+      
+      <div class="sections">
+      </div>
+      
+      <p id="footer" class="footer font-weight-bold halo"> Made by Jack Hardwick</p>  
+    
+        
+    <link rel="stylesheet" href="https://js.arcgis.com/4.12/esri/css/main.css">
+    <script src="https://js.arcgis.com/4.12/"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="resumeMain.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>

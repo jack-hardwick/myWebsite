@@ -1,0 +1,72 @@
+#viewDiv{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    
+}
+
+#mnIntro{
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: sticky;
+    bottom: 40vh; 
+}
+
+#mnSide{
+    position: fixed;
+    right: 1vh;
+    width: 40vh;
+    top: 20vh;
+}
+
+.mapNote {
+    position: absolute;
+    width: 50vh;
+    height: 40vh;
+    margin-left: 2vh;
+    z-index: 1;
+}
+
+#GISexptext, #GISInternLongtextField, #GISInternUCCStextField, #GISTAtextField, #GenExpText, #backBtn, #BSAtext, #FRCCITtext, #UCCSITtext, #AccompText, #eagleText, #gisClubPresText, #LASAmbText, #pageIncrease{
+    display: none;
+}
+
+
+
+#directory{
+    
+}
+
+.mapNoteWide{
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    width: 80%;
+    left: 2vh;
+}
+
+.mapText{
+    font-family: Nunito;
+    font-style: italic;
+}
+
+.stickyMap{
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+
+.imageList{
+    list-style-type: none;
+}
+
+.imageListItem{
+    display: inline-block;
+    width: 70vh;
+    justify-content: center;
+    height: 50vh;
+}

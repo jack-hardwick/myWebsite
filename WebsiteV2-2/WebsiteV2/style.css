@@ -1,0 +1,13 @@
+body, html{
+   margin: 0;
+}
+
+#footer {
+  background: rgba(255, 255, 255, 0);
+  color: floralwhite;
+  bottom: 2vh;
+  left: 50vh;
+  position: fixed;
+  z-index: 2;
+  
+}
